@@ -8,6 +8,6 @@ This is a basic chatbot project that can be customize in any way.
 * Download [Microsoft Bot Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases/tag/v3.5.29)
 * Run npm start or run from your IDE 
 * Copy port
-* Open the Bot Emulator
+* Open the Bot Emulator 
 * Insert http://localhost:[yourport]/api/messages (No need for Microsoft APP ID or Password)
 * Have fun!
