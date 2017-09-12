@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "local",
+            "program": "${workspaceRoot}/index.js",
+            "env": {
+                "NODE_ENV": "development",                
+                "DASHBOT_API_KEY": "",
+                "MICROSOFT_APP_ID": "",
+                "MICROSOFT_APP_PASSWORD": "",
+                "MAX_RETRIES": "3",
+                "ROLLBAR_TOKEN": "",
+                "PORT": "8989"
+            }
+        }
+    ]
+}
