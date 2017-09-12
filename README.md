@@ -10,4 +10,4 @@ This is a basic chatbot project that can be customize in any way.
 * Copy port
 * Open the Bot Emulator 
 * Insert http://localhost:[yourport]/api/messages (No need for Microsoft APP ID or Password)
-* Have fun!
+* Have fun! 
