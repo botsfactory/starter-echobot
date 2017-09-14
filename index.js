@@ -70,7 +70,7 @@ server.post('/api/messages', connector.listen());
 //cmerrors.installRollbarReporter(bot, { token: process.env.ROLLBAR_TOKEN, environment: process.env.NODE_ENV });
 
 
-const listener = server.listen(process.env.PORT, function () {
+const listener = server.listen(process.env.PORT || 8989, function () {
 
     console.log('Bot started listening on', listener.address().address, listener.address().port);
 })

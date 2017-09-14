@@ -33,7 +33,7 @@
     "mongoose": "^4.9.3",
     "needle": "^1.6.0",
     "node-fetch": "^1.6.3",
-    "node-uuid": "^1.4.8",    
+    "node-uuid": "^1.4.8",
     "path": "^0.12.7",
     "restify": "^4.1.1",
     "source-map-support": "^0.4.6",
