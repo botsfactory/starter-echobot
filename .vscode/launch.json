@@ -16,7 +16,8 @@
                 "MICROSOFT_APP_PASSWORD": "",
                 "MAX_RETRIES": "3",
                 "ROLLBAR_TOKEN": "",
-                "PORT": "8989"
+                "PORT": "8989",
+                "DB_URI": "mongodb://localhost:27017/starter-echobot"
             }
         }
     ]
