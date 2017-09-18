@@ -2,12 +2,7 @@
 const path = require('path');
 const mongoose = require('mongoose');
 const botbuilder = require('botbuilder');
-const _ = require("lodash");
-const moment = require("moment");
 const express = require("express");
-const router = express.Router();
-const bodyParser = require('body-parser');
-const methodOverride = require('method-override');
 const botsfactory = require('@botsfactory/botsfactory');
 
 const connector = new botbuilder.ChatConnector({
@@ -18,6 +13,7 @@ const connector = new botbuilder.ChatConnector({
 const server = express();
 var bot = new botbuilder.UniversalBot(connector);
 
+// Initial dialog - Echo bot
 bot.dialog('/', function (session) {
     session.endDialog("I heard: %s", session.message.text);
 });
@@ -25,7 +21,12 @@ bot.dialog('/', function (session) {
 mongoose.connect(process.env.DB_URI).then(() => {
 
     //LET'S DO IT!
-    botsfactory.install(bot, server, mongoose.connection.db, process.env.DB_URI);
+    botsfactory.install({
+        bot,
+        server,
+        db: mongoose.connection.db,
+        dbUri: process.env.DB_URI
+    });
 
     // Handle Bot Framework messages
     server.post('/api/messages', connector.listen());
