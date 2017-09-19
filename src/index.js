@@ -1,6 +1,6 @@
 //@ts-check
 const path = require('path');
-const mongoose = require('mongoose');
+
 const botbuilder = require('botbuilder');
 const express = require("express");
 const botsfactory = require('@botsfactory/botsfactory');
@@ -20,16 +20,15 @@ bot.dialog('/', function (session) {
 
 const DB_URI = process.env.DB_URI || 'mongodb://localhost:27017/starter-echobot';
 
-mongoose.connect(DB_URI).then(() => {
+//LET'S DO IT!
+botsfactory.powerUp({
+    bot,
+    server,
+    dbUri: DB_URI
+}).then((result) => {
 
-    //LET'S DO IT!
-    botsfactory.install({
-        bot,
-        server,
-        db: mongoose.connection.db,
-        dbUri: DB_URI
-    });
-
+    console.log(result);
+    
     // Handle Bot Framework messages
     server.post('/api/messages', connector.listen());
 
