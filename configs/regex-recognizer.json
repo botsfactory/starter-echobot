@@ -1,0 +1,8 @@
+{
+    "intents": [
+        {
+            "regex": "/Hi/",
+            "intent": "greeting"
+        }
+    ]
+}
