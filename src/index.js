@@ -18,14 +18,16 @@ bot.dialog('/', function (session) {
     session.endDialog("I heard: %s", session.message.text);
 });
 
-mongoose.connect(process.env.DB_URI).then(() => {
+const DB_URI = process.env.DB_URI || 'mongodb://localhost:27017/starter-echobot';
+
+mongoose.connect(DB_URI).then(() => {
 
     //LET'S DO IT!
     botsfactory.install({
         bot,
         server,
         db: mongoose.connection.db,
-        dbUri: process.env.DB_URI
+        dbUri: DB_URI
     });
 
     // Handle Bot Framework messages

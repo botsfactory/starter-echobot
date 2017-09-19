@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "local",
-            "program": "${workspaceRoot}/index.js",
+            "program": "${workspaceRoot}/src/index.js",
             "env": {
                 "NODE_ENV": "development",                
                 "DASHBOT_API_KEY": "",
