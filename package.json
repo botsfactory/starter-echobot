@@ -3,7 +3,7 @@
   "description": "Echo bot",
   "version": "1.1.0",
   "private": true,
-  "license": "ISC",
+  "license": "BotsFactory",
   "author": {
     "name": "botsfactory"
   },
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@botsfactory/admin": "^0.0.1",
-    "@botsfactory/modules": "^0.0.1",
+    "@botsfactory/botsfactory": "0.0.3",
     "@sailshq/lodash": "^3.10.2",
     "async": "^2.1.4",
     "body-parser": "^1.16.1",
@@ -32,7 +32,7 @@
     "method-override": "^2.3.8",
     "moment": "^2.18.1",
     "mongodb": "^2.2.15",
-    "mongoose": "^4.9.3",
+    "mongoose": "^4.10.8",
     "needle": "^1.6.0",
     "node-fetch": "^1.6.3",
     "node-uuid": "^1.4.8",
@@ -43,7 +43,7 @@
     "uuid": "^3.0.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "devDependencies": {
     "gulp": "^3.9.1"

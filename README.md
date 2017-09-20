@@ -1,3 +1,5 @@
+# ⚠️ Under heavy development ⚠️
+
 # Echo Bot
 This is an simple project of a chatbot that repeats the user's input.
 
@@ -11,3 +13,11 @@ This is a basic chatbot project that can be customize in any way.
 * Open the Bot Emulator 
 * Insert http://localhost:[yourport]/api/messages (No need for Microsoft APP ID or Password)
 * Have fun!  
+
+## Authors
+
+[BotsFactory](https://www.botsfactory.io)
+
+## License
+
+This project is licensed under the BotsFactory License (We are working on exact terms).
