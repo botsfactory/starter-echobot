@@ -3,7 +3,7 @@
   "description": "Echo bot",
   "version": "1.1.0",
   "private": true,
-  "license": "ISC",
+  "license": "BotsFactory",
   "author": {
     "name": "botsfactory"
   },
