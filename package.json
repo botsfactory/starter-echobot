@@ -11,7 +11,12 @@
     "node": ">=7.9.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@botsfactory/admin": "^0.0.1",
+=======
+    "@botsfactory/admin": "latest",
+    "@botsfactory/botsfactory": "latest",
+>>>>>>> 81f039aee2abae058ac396492d4ef796012c0681
     "@sailshq/lodash": "^3.10.2",
     "async": "^2.1.4",
     "body-parser": "^1.16.1",
