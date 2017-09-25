@@ -1,8 +1,15 @@
 {
     "intents": [
         {
-            "regex": "/Hi/",
+            "id": "cj7w9hzfb000276jxhuc21qrv",
+            "regex": "/Hello/",
             "intent": "greeting"
         }
-    ]
+    ],
+    "visual": {
+        "coordinates": {
+            "x": "",
+            "y": ""
+        }
+    }
 }
