@@ -1,9 +1,9 @@
 {
-    "intents": [
+    "items": [
         {
             "id": "cj7w9hzfb000276jxhuc21qrv",
             "regex": "/Hello/",
-            "intent": "greeting"
+            "dialog": "greeting"
         }
     ],
     "visual": {
