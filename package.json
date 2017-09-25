@@ -1,7 +1,7 @@
 {
   "name": "echo-bot",
   "description": "Echo bot",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "license": "BotsFactory",
   "author": {
