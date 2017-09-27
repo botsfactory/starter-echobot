@@ -13,8 +13,12 @@ const connector = new botbuilder.ChatConnector({
 const server = express();
 var bot = new botbuilder.UniversalBot(connector);
 
-// Initial dialog - Echo bot
-bot.dialog('/', function (session) {
+const intents = new botbuilder.IntentDialog({ recognizers: [], recognizeOrder: botbuilder.RecognizeOrder.series })
+
+bot.dialog('/', intents);
+
+// Initial dialog - Echo bot 
+intents.onDefault((session) => {
     session.endDialog("I heard: %s", session.message.text);
 });
 
