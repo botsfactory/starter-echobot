@@ -1,0 +1,15 @@
+{
+    "dialogs": [
+        {
+            "id": "cj80kiaxo000004v5odivlfzt",
+            "name": "/greeting",
+            "messages": [
+                {
+                    "id": "cj80kihti000104v5494e74hu",
+                    "type": "text",
+                    "text": "Hi!"
+                }
+            ]
+        }
+    ]
+}

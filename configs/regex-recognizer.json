@@ -2,8 +2,8 @@
     "items": [
         {
             "id": "cj7w9hzfb000276jxhuc21qrv",
-            "regex": "/Hello/",
-            "dialog": "greeting"
+            "regex": "hi",
+            "dialog": "/greeting"
         }
     ],
     "visual": {
