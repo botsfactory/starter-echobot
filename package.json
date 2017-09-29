@@ -35,12 +35,10 @@
     "mongoose": "^4.10.8",
     "needle": "^1.6.0",
     "node-fetch": "^1.6.3",
-    "node-uuid": "^1.4.8",
     "path": "^0.12.7",
     "restify": "^4.1.1",
     "source-map-support": "^0.4.6",
-    "underscore": "^1.8.3",
-    "uuid": "^3.0.1"
+    "underscore": "^1.8.3"
   },
   "scripts": {
     "start": "node src/index.js"
