@@ -1,8 +1,9 @@
 {
-    "items": [
+    "intents": [
         {
             "id": "cj7w9hzfb000276jxhuc21qr9",
-            "regex": "Bla",
+            "luisId" : "0ee8d302-03a6-484d-96c3-d9fe205a0877",
+            "intent": "Hi",
             "dialog": "/greeting"
         }
     ],
