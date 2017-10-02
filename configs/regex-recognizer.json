@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "id": "cj7w9hzfb000276jxhuc21qrv",
+            "bfId": "cj7w9hzfb000276jxhuc21qrv",
             "regex": "hi",
             "dialog": "/greeting"
         }

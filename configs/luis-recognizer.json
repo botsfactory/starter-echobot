@@ -1,9 +1,9 @@
 {
     "intents": [
         {
-            "id": "cj7w9hzfb000276jxhuc21qr9",
-            "luisId" : "0ee8d302-03a6-484d-96c3-d9fe205a0877",
-            "intent": "Hi",
+            "bfId": "cj7w9hzfb000276jxhuc21qnm",
+            "luisId": "4070653e-944d-4483-a1a9-bce7cd7f360a",
+            "intent": "Greeting",
             "dialog": "/greeting"
         }
     ],
@@ -14,9 +14,10 @@
         }
     },
     "settings": {
-        "version" : 0.1,
+        "version": 0.1,
         "appId": "43ef88cc-ba86-491c-8cd9-57440c35c6d4",
         "subscriptionKey": "f4fc5e0eb8724619a360694e10588d0b",
-        "baseUrl": "https://westus.api.cognitive.microsoft.com/luis/api/v2.0/apps/"
+        "baseUrl": "https://westus.api.cognitive.microsoft.com/luis/api/v2.0/apps/",
+        "baseUrlGets": "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/"
     }
 }
