@@ -10,6 +10,17 @@
                     "text": "Hi!"
                 }
             ]
+        },
+        {
+            "id": "cj80kiaxo000004v5odivl111",
+            "name": "/thankful",
+            "messages": [
+                {
+                    "id": "3330kihti000104v5494e74hu",
+                    "type": "text",
+                    "text": "Your welcome!"
+                }
+            ]
         }
     ]
 }

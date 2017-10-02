@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "@botsfactory/admin": "latest",
-    "@botsfactory/botsfactory": "latest",
+    "@botsfactory/json-tool": "0.0.14",
     "@sailshq/lodash": "^3.10.2",
     "async": "^2.1.4",
     "body-parser": "^1.16.1",
-    "botbuilder": "^3.8.3",
+    "botbuilder": "^3.10.2",
     "botbuilder-azure": "^3.0.2",
     "crypto": "0.0.3",
     "dashbot": "^0.7.6",

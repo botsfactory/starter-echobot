@@ -2,9 +2,13 @@
     "intents": [
         {
             "bfId": "cj7w9hzfb000276jxhuc21qnm",
-            "luisId": "4070653e-944d-4483-a1a9-bce7cd7f360a",
-            "intent": "Greeting",
-            "dialog": "/greeting"
+            "luisId": "27287fbc-732c-4e81-a59a-6f182370bbf6",
+            "dialog": "/None"
+        },
+        {
+            "bfId": "cj7w9hzfb000200jxhuc21qnm",
+            "luisId": "05ad8487-54ee-4fe6-a0df-cc2e3d2ec42b",
+            "dialog": "/thankful"
         }
     ],
     "visual": {

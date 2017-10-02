@@ -1,6 +1,5 @@
 //@ts-check
 const path = require('path');
-
 const botbuilder = require('botbuilder');
 const express = require("express");
 const botsfactory = require('@botsfactory/botsfactory');
@@ -32,7 +31,7 @@ botsfactory.powerUp({
 }).then((result) => {
 
     console.log(result);
-    
+
     // Handle Bot Framework messages
     server.post('/api/messages', connector.listen());
 
