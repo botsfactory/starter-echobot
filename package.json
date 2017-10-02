@@ -13,7 +13,7 @@
   "dependencies": {
     "@botsfactory/admin": "latest",
     "@botsfactory/botsfactory": "latest",
-    "@botsfactory/json-tool": "0.0.14",
+    "@botsfactory/json-tool": "latest",
     "@sailshq/lodash": "^3.10.2",
     "async": "^2.1.4",
     "body-parser": "^1.16.1",
