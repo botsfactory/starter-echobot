@@ -1,26 +1,32 @@
 {
     "dialogs": [
         {
-            "id": "cj80kiaxo000004v5odivlfzt",
+            "bfId": "cj80kiaxo000004v5odivlfzt",
             "name": "/greeting",
             "messages": [
                 {
-                    "id": "cj80kihti000104v5494e74hu",
+                    "bfId": "cj80kihti000104v5494e74hu",
                     "type": "text",
                     "text": "Hi!"
                 }
             ]
         },
         {
-            "id": "cj80kiaxo000004v5odivl111",
+            "bfId": "cj80kiaxo000004v5odivl111",
             "name": "/thankful",
             "messages": [
                 {
-                    "id": "3330kihti000104v5494e74hu",
+                    "bfId": "3330kihti000104v5494e74hu",
                     "type": "text",
                     "text": "Your welcome!"
                 }
             ]
         }
-    ]
+    ],
+    "visual": {
+        "offset": {
+            "x": "",
+            "y": ""
+        }
+    }
 }

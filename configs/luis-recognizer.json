@@ -3,7 +3,7 @@
         {
             "bfId": "cj7w9hzfb000276jxhuc21qnm",
             "luisId": "27287fbc-732c-4e81-a59a-6f182370bbf6",
-            "dialog": "/None"
+            "dialog": "/Cambiado"
         },
         {
             "bfId": "cj7w9hzfb000200jxhuc21qnm",
@@ -12,7 +12,7 @@
         }
     ],
     "visual": {
-        "coordinates": {
+        "offset": {
             "x": "",
             "y": ""
         }
