@@ -19,8 +19,8 @@
     },
     "settings": {
         "version": 0.1,
-        "appId": "43ef88cc-ba86-491c-8cd9-57440c35c6d4",
-        "subscriptionKey": "f4fc5e0eb8724619a360694e10588d0b",
+        "appId": "<your_azure_app_id>",
+        "subscriptionKey": "<your_azure_subscription_key>",
         "baseUrl": "https://westus.api.cognitive.microsoft.com/luis/api/v2.0/apps/",
         "baseUrlGets": "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/"
     }
