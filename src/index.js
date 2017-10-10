@@ -1,5 +1,4 @@
 //@ts-check
-const path = require('path');
 const botbuilder = require('botbuilder');
 const express = require("express");
 const botsfactory = require('@botsfactory/botsfactory');

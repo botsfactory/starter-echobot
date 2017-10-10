@@ -1,13 +1,13 @@
 {
     "intents": [
         {
-            "bfId": "cj7w9hzfb000276jxhuc21qnm",
-            "luisId": "27287fbc-732c-4e81-a59a-6f182370bbf6",
-            "dialog": "/Cambiado"
+            "bfId": "cj8lomhnz0000nrjx14jwhqfm",
+            "luisId": "9a2f5ba3-3d1e-4eab-8e1e-66b3efaea51d",
+            "dialog": "/None"
         },
         {
-            "bfId": "cj7w9hzfb000200jxhuc21qnm",
-            "luisId": "05ad8487-54ee-4fe6-a0df-cc2e3d2ec42b",
+            "bfId": "cj8lomo5g0000p4jxsa4hd3x6",
+            "luisId": "f3851112-b814-4304-abe0-4f279e56bd66",
             "dialog": "/thankful"
         }
     ],
