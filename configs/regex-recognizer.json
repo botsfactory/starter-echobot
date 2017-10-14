@@ -5,11 +5,5 @@
             "regex": "hi",
             "dialog": "/greeting"
         }
-    ],
-    "visual": {
-        "offset": {
-            "x": "",
-            "y": ""
-        }
-    }
+    ]
 }

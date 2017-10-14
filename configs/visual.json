@@ -1,0 +1,34 @@
+{
+    "regex-recognizer": {
+        "draggable": {
+            "offset": {
+                "top": 51,
+                "left": 34
+            }
+        }
+    },
+    "luis-recognizer": {
+        "draggable": {
+            "offset": {
+                "top": 349,
+                "left": 38
+            }
+        }
+    },
+    "dialogs-cj8lon8bl0000sljx156zv3v2": {
+        "draggable": {
+            "offset": {
+                "top": 367,
+                "left": 574
+            }
+        }
+    },
+    "dialogs-cj8lomv3v0000qcjxfw59pgm6": {
+        "draggable": {
+            "offset": {
+                "top": 52,
+                "left": 579
+            }
+        }
+    }
+}

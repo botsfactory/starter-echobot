@@ -11,12 +11,6 @@
             "dialog": "/thankful"
         }
     ],
-    "visual": {
-        "offset": {
-            "x": "",
-            "y": ""
-        }
-    },
     "settings": {
         "version": 0.1,
         "appId": "<your_azure_app_id>",
