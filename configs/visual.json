@@ -2,33 +2,49 @@
     "regex-recognizer": {
         "draggable": {
             "offset": {
-                "top": 51,
-                "left": 34
+                "top": 68,
+                "left": 54
             }
+        },
+        "offset": {
+            "top": 94,
+            "left": 766
         }
     },
     "luis-recognizer": {
         "draggable": {
             "offset": {
-                "top": 349,
-                "left": 38
+                "top": 293,
+                "left": 75
             }
+        },
+        "offset": {
+            "top": 449,
+            "left": 114
         }
     },
     "dialogs-cj8lon8bl0000sljx156zv3v2": {
         "draggable": {
             "offset": {
-                "top": 367,
-                "left": 574
+                "top": 499,
+                "left": 753
             }
+        },
+        "offset": {
+            "top": 23,
+            "left": 92
         }
     },
     "dialogs-cj8lomv3v0000qcjxfw59pgm6": {
         "draggable": {
             "offset": {
-                "top": 52,
-                "left": 579
+                "top": 66,
+                "left": 755
             }
+        },
+        "offset": {
+            "top": 469,
+            "left": 896
         }
     }
 }
