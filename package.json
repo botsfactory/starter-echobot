@@ -11,8 +11,6 @@
     "node": ">=7.9.0"
   },
   "dependencies": {
-    "@botsfactory/admin": "latest",
-    "@botsfactory/botsfactory": "latest",
     "botbuilder": "^3.10.2",
     "express": "^4.14.1"
   },
