@@ -9,6 +9,9 @@
             "request": "launch",
             "name": "local",
             "program": "${workspaceRoot}/src/index.js",
+            "runtimeArgs": [
+                "--preserve-symlinks"
+            ],
             "env": {
                 "NODE_ENV": "development",
                 "DASHBOT_API_KEY": "",

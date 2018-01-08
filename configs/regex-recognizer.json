@@ -1,9 +1,0 @@
-{
-    "items": [
-        {
-            "bfId": "cj8lol4n10000l2jxeutta9nk",
-            "regex": "hi",
-            "dialog": "/greeting"
-        }
-    ]
-}
